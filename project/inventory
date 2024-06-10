@@ -1,0 +1,3 @@
+[webservers]
+
+ 13.201.27.118 ansible_user=ubuntu

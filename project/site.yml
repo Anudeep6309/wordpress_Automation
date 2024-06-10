@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: yes
+  vars:
+    wordpress_db: wayfinders
+    wordpress_dbuser: wayfinders
+    wordpress_dbpass: 123456789
+  roles:
+    - role: apache2
+    - role: php
+    - role: mariadb
+    - role: wordpress
+
+
+

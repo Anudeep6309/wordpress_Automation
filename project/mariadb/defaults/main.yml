@@ -1,0 +1,6 @@
+---
+# defaults file for mariadb
+
+wordpress_db: wayfinders
+wordpress_dbuser: wayfinders
+wordpress_dbpass: 123456789

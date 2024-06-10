@@ -1,0 +1,14 @@
+---
+# tasks file for php
+
+- name:  PHP and Install extensions
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - php
+    - php-mysql
+    - libapache2-mod-php
+    - php-cli
+    - php-cgi
+    - php-gd
