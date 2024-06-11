@@ -1,8 +1,0 @@
-
-import java.util.scanner;
-public class{
-public static void main (String [] args);{
-system.out.print("hello world");
-};
-};
-
