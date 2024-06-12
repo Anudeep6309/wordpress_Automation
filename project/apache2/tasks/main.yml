@@ -12,16 +12,7 @@
     name: apache2
     state: started
     enabled: yes
-  
 
-- name: Enable HTTP service on the remote host
-  ufw:
-    rule: allow
-    name: 'Apache Full'
-  
-
-- name: Reload UFW service after enabling HTTP service
-  command: ufw reload
   
 
 - name: Remove file from Apache2
